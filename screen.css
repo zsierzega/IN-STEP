@@ -72,12 +72,34 @@ h2{
 
 body{
 
-background: url(backgroundtrefoil.png);
-background-size: 50vw auto;
-background-position: 25vw 5vw;
-background-repeat: no-repeat;
+  background: url(backgroundtrefoil.png);
+  background-size: auto 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+nav{
+  
+  margin-left: 6vw;
+  margin-right: 6vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+  grid-gap: 1rem;
+  
+}
+
+
+.linkbox{
+
+  border-radius: 1rem;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  padding 1.5rem;
+  background: #d1feff;
+  font-size: 2em;
+  text-align: center;
+}
 #welcome {
 
   padding-top: 10vh;
