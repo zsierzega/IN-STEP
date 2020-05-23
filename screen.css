@@ -79,7 +79,7 @@ body{
 }
 
 nav{
-  
+  margin-top: 50vh;
   margin-left: 6vw;
   margin-right: 6vw;
   display: grid;
@@ -116,7 +116,7 @@ nav{
 
 #intro_text{
   
-  padding-top: 25vw; 
+  padding-top: 2vh; 
   margin-left: 12vw;
   margin-right: 12vw;
 
