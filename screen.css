@@ -46,3 +46,65 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* Custom CSS Below */
+
+h1 {
+
+  font-size: 4em;
+  text-align: center;
+
+}
+
+h2{
+
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+
+.landing_page{
+
+  font-family: Roboto, Arial, Georgia;
+}
+
+body{
+
+background: url(backgroundtrefoil.png);
+background-size: 50vw auto;
+background-position: 25vw 5vw;
+background-repeat: no-repeat;
+}
+
+#welcome {
+
+  padding-top: 10vh;
+  text-align: center;
+
+}
+
+#landingeventdate {
+
+  padding-top: 1em;
+  text-align: center;
+
+}
+
+#intro_text{
+  
+  padding-top: 25vw; 
+  margin-left: 12vw;
+  margin-right: 12vw;
+
+}
+
+#landingback{
+  
+
+  width: 50vw;
+  height: auto;
+
+  display: block;
+}
