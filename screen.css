@@ -73,19 +73,20 @@ h2{
 body{
 
   background: url(backgroundtrefoil.png);
-  background-size: auto 50vw;
+  background-size: auto auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 nav{
-  margin-top: 50vh;
+  margin-top: 35vh;
   margin-left: 6vw;
   margin-right: 6vw;
+  margin-bottom: 5vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
   grid-gap: 1rem;
-  
+	  
 }
 
 
