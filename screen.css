@@ -160,7 +160,17 @@ nav{
 
 }
 
-.IIT_faculty{
+@media screen and (max-width: 490px){
+
+  .bio_table{
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+
+.faculty_bio{
 
   border-radius: 1rem;
   margin: 1em;
@@ -173,20 +183,20 @@ nav{
 
 }
 
-.NLU_faculty{
 
-  border-radius: 1rem;
-  margin: 1em;
-  display: flex;
-  flex-flow: column;
-  padding 1.5rem;
-  background: #99c2ff;
-  font-size: 2em;
-  text-align: center
+#Sally,#Mehdi,#Andy,#Adam{
+
+  background: #ffb3b3;
 
 }
 
-.IIT_faculty > .headshot {
+#Visodana,#Eun{
+
+  background: #cce0ff;
+
+}
+
+.faculty_bio > .headshot {
 
   flex: 1 0 0%;
   text-align: center;
@@ -199,7 +209,7 @@ nav{
   min-width: 100px
 }
 
-.IIT_faculty > .bio_description {
+.faculty_bio > .bio_description {
 
  flex: 2 0 0%;
  text-align: center;
