@@ -83,24 +83,36 @@ nav{
   margin-left: 6vw;
   margin-right: 6vw;
   margin-bottom: 5vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
-  grid-gap: 1rem;
-	  
+}
+
+
+@media screen and (min-width: 950px){
+
+  nav{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+    grid-gap: 1rem;
+
+  }
+
+
 }
 
 
 .linkbox{
 
   border-radius: 1rem;
-  margin: 0;
+  margin: 1em;
   display: flex;
   flex-flow: column;
   padding 1.5rem;
   background: #d1feff;
   font-size: 2em;
   text-align: center;
+
 }
+
 #welcome {
 
   padding-top: 10vh;
@@ -131,3 +143,4 @@ nav{
 
   display: block;
 }
+
