@@ -65,10 +65,11 @@ h2{
 }
 
 
-.landing_page{
+.landing_page, .bios{
 
   font-family: Roboto, Arial, Georgia;
 }
+
 
 body{
 
@@ -77,6 +78,14 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/*body{
+
+  background: url(backgroundtrefoil.png);
+  background-size: auto auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/
 
 nav{
   margin-top: 35vh;
