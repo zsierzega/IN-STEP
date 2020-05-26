@@ -79,14 +79,6 @@ body{
   background-repeat: no-repeat;
 }
 
-/*body{
-
-  background: url(backgroundtrefoil.png);
-  background-size: auto auto;
-  background-position: center;
-  background-repeat: no-repeat;
-}*/
-
 nav{
   margin-top: 35vh;
   margin-left: 6vw;
@@ -119,6 +111,14 @@ nav{
   background: #d1feff;
   font-size: 2em;
   text-align: center;
+
+}
+
+.box_link{
+
+  text-decoration: none;
+  background-color: none;
+  color: black;
 
 }
 
