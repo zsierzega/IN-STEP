@@ -153,3 +153,66 @@ nav{
   display: block;
 }
 
+.bio_table{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.IIT_faculty{
+
+  border-radius: 1rem;
+  margin: 1em;
+  display: flex;
+  flex-direction: row-reverse;  
+  padding 1.5rem;
+  background: #ff9999;
+  font-size: 1em;
+  text-align: center
+
+}
+
+.NLU_faculty{
+
+  border-radius: 1rem;
+  margin: 1em;
+  display: flex;
+  flex-flow: column;
+  padding 1.5rem;
+  background: #99c2ff;
+  font-size: 2em;
+  text-align: center
+
+}
+
+.IIT_faculty > .headshot {
+
+  flex: 1 0 0%;
+  text-align: right
+
+}
+
+.headshot > img {
+
+  max-width: 5vw;
+  max-height: auto;
+}
+
+.IIT_faculty > .bio_description {
+
+ flex: 2 0 0%;
+
+ margin: auto 0;
+
+}
+
+.bio_image{
+
+  margin-top: 0.5vw;
+  margin-bottom: 1vw;
+  margin-right: 1vw;
+  margin-left: 1em;
+  height: auto;
+  width: auto;
+}
