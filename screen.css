@@ -189,20 +189,20 @@ nav{
 .IIT_faculty > .headshot {
 
   flex: 1 0 0%;
-  text-align: right
+  text-align: center;
 
 }
 
 .headshot > img {
-
-  max-width: 5vw;
-  max-height: auto;
+  text-align: center;
+  width: 80%;
+  min-width: 100px
 }
 
 .IIT_faculty > .bio_description {
 
  flex: 2 0 0%;
-
+ text-align: center;
  margin: auto 0;
 
 }
@@ -213,6 +213,5 @@ nav{
   margin-bottom: 1vw;
   margin-right: 1vw;
   margin-left: 1em;
-  height: auto;
-  width: auto;
+  width: 40%;
 }
