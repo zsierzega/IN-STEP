@@ -160,13 +160,13 @@ nav{
 
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 800px){
 
   .bio_table{
 
     grid-template-columns: 1fr;
 
-  }
+  } 
 
 }
 
@@ -224,4 +224,22 @@ nav{
   margin-right: 1vw;
   margin-left: 1em;
   width: 40%;
+}
+
+.bio_paragraph{
+  
+  display: inline-block;
+  text-align: left;
+  line-height: 3vw;
+}
+
+
+@media screen and (max-width: 800px){
+
+  .bio_paragraph{
+
+    line-height: 6vw;
+
+  }
+
 }
