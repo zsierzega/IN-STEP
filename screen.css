@@ -71,7 +71,7 @@ h2{
 }
 
 
-body{
+#home_body{
 
   background: url(backgroundtrefoil.png);
   background-size: auto auto;
@@ -79,7 +79,7 @@ body{
   background-repeat: no-repeat;
 }
 
-nav{
+.home_tabs{
   margin-top: 35vh;
   margin-left: 6vw;
   margin-right: 6vw;
@@ -89,7 +89,7 @@ nav{
 
 @media screen and (min-width: 950px){
 
-  nav{
+  .home_tabs{
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
@@ -101,17 +101,28 @@ nav{
 }
 
 
-.linkbox{
+.home_nav{
 
   border-radius: 1rem;
   margin: 1em;
   display: flex;
   flex-flow: column;
-  padding 1.5rem;
   background: #d1feff;
   font-size: 2em;
+  align-self: center;
   text-align: center;
 
+}
+
+.banner_nav{
+
+  border-radius: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  background: #d1feff;
+  font-size: 1em;
+  align-self: center;
+  text-align: center;
 }
 
 .box_link{
