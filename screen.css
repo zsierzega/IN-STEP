@@ -79,7 +79,7 @@ h2{
   background-repeat: no-repeat;
 }
 
-.home_tabs{
+.home_nav{
   margin-top: 35vh;
   margin-left: 6vw;
   margin-right: 6vw;
@@ -89,7 +89,7 @@ h2{
 
 @media screen and (min-width: 950px){
 
-  .home_tabs{
+  .home_nav{
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25vw, auto));
@@ -100,10 +100,10 @@ h2{
 }
 
 
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 465px) {
 
 
-  .banner_tabs{
+  .banner_nav{
 
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +119,7 @@ h2{
 
 
 
-.home_nav{
+.home_tabs{
 
   border-radius: 1rem;
   margin: 1em;
@@ -132,17 +132,17 @@ h2{
 
 }
 
-.banner_nav{
+.banner_tabs {
 
   border-radius: 0.5rem;
   display: flex;
   flex-flow: column;
   background: #d1feff;
-  font-size: 1.2em;
+  font-size: 1.4em;
   align-self: center;
   text-align: center;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
 
@@ -154,6 +154,17 @@ h2{
   background-color: none;
   color: black;
 
+}
+
+.banner_link{
+  
+  text-decoration: none;
+  background-color: none;
+  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
 }
 
 #welcome {
