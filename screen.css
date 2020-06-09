@@ -320,13 +320,27 @@ h2{
  display: grid;
  grid-template-columns: repeat(6, 15vw [col-start]);
  grid-template-rows: repeat(8, 3em [row-start]);
- grid-gap: 0.3em 0.3em;
-
+ grid-gap: 0.2em;
+ justify-content: center;
 }
 
 .date_cell {
   display: flex;
   background: #b9ff99;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue_event {
+  display: flex;
+  background: #e6f2ff;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow_event {
+  display: flex;
+  background: #ffffe6;
   align-items: center;
   justify-content: center;
 }
