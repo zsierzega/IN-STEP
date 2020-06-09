@@ -92,13 +92,31 @@ h2{
   .home_tabs{
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25vw, auto));
     grid-gap: 1rem;
+
+  }
+
+}
+
+
+@media screen and (min-width: 330px) {
+
+
+  .banner_tabs{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 
   }
 
 
 }
+
 
 
 .home_nav{
@@ -120,9 +138,14 @@ h2{
   display: flex;
   flex-flow: column;
   background: #d1feff;
-  font-size: 1em;
+  font-size: 1.2em;
   align-self: center;
   text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+
 }
 
 .box_link{
