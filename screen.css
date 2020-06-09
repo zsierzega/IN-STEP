@@ -315,20 +315,32 @@ h2{
   padding-bottom: 2em;
 }
 
-.calendar{
+
+.calendar_desktop{
 
  display: grid;
  grid-template-columns: repeat(6, 15vw [col-start]);
  grid-template-rows: repeat(8, 3em [row-start]);
  grid-gap: 0.2em;
  justify-content: center;
+ display: none;
+
 }
 
+.calendar_mobile{
+
+  display: block;
+
+}
 .date_cell {
   display: flex;
   background: #b9ff99;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0.25em;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius: 10px;
 }
 
 .blue_event {
@@ -336,6 +348,10 @@ h2{
   background: #e6f2ff;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0.25em;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius: 10px;
 }
 
 .yellow_event {
@@ -343,4 +359,48 @@ h2{
   background: #ffffe6;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0.25em;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius: 10px;
 }
+
+.calendar_text{
+
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 650px) {
+
+  .calendar_desktop{
+
+    display: grid;
+
+  }
+
+  .calendar_mobile{
+
+    display: none;
+  }
+  
+  .calendar_text{
+
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+  
+  .blue_event, .yellow_event, .date_cell {
+   
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 0;
+
+  }
+}
+
