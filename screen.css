@@ -314,3 +314,19 @@ h2{
   padding-top: 1em;
   padding-bottom: 2em;
 }
+
+.calendar{
+
+ display: grid;
+ grid-template-columns: repeat(6, 15vw [col-start]);
+ grid-template-rows: repeat(8, 3em [row-start]);
+ grid-gap: 0.3em 0.3em;
+
+}
+
+.date_cell {
+  display: flex;
+  background: #b9ff99;
+  align-items: center;
+  justify-content: center;
+}
