@@ -295,7 +295,22 @@ h2{
 
 }
 
-#about_title{
+#about_title, #team_title{
 
   margin-bottom: 2vh;
+}
+
+#TQP_abouthead,#IN-STEP_abouthead{
+
+  text-align: left;
+  margin-left: 3vw;
+
+}
+
+
+.about_paragraph{
+  padding-right: 7vw;
+  padding-left: 5vw;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
