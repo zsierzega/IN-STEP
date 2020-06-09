@@ -127,7 +127,7 @@ h2{
 
 .home_tabs{
 
-  border-radius: 10px;
+  border-radius: 1rem;
   margin: 1em;
   display: flex;
   flex-flow: column;
