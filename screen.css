@@ -131,10 +131,10 @@ h2{
   margin: 1em;
   display: flex;
   flex-flow: column;
-  background: #d1feff;
   font-size: 2em;
   align-self: center;
   text-align: center;
+  background: #ededed;
 
 }
 
