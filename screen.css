@@ -64,15 +64,12 @@ h2{
 
 }
 
-/*
-Using bootstrap nav bar font family for now
 
 .landing_page, .bios{
 
   font-family: Roboto, Arial, Georgia;
 
 }
-*/
 
 
 #home_body{
@@ -429,5 +426,11 @@ Using bootstrap nav bar font family for now
 
 #welcome{
   font-size: 4em;
+
+}
+
+#registration_form{
+
+  text-align: center;
 
 }
