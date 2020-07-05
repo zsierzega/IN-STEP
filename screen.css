@@ -242,9 +242,15 @@ h2{
 
 }
 
-#Visodana,#Eun{
+#Vishodana,#Eun,#Shaunti,#Maxx{
 
   background: #cce0ff;
+
+}
+
+#Tim,#Greta,#Elliot{
+
+  background: #E1E3E1;
 
 }
 
@@ -267,14 +273,13 @@ h2{
  text-align: left;
  margin: auto 0;
  margin-left: 0.5em;
-
 }
 
 .bio_image{
 
-  margin-top: 0.5vw;
+  margin-top: 1vw;
   margin-bottom: 1vw;
-  margin-right: 1vw;
+  margin-right: 10vw;
   margin-left: 1em;
   width: 40%;
 }
@@ -455,5 +460,34 @@ h2{
 #session_intro_head{
 
   margin-top: 3vh;
+
+}
+
+#sankey_basic{
+
+  display: none;
+
+}
+
+#sankey_alt{
+
+  color: #3CBD22;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+
+
+  #sankey_basic{
+
+    display: block;
+
+  }
+
+  #sankey_alt{
+
+    display: none;
+
+  }
 
 }
