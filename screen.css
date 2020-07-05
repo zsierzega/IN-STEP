@@ -235,6 +235,18 @@ h2{
 
 }
 
+.com_panel{
+
+  border-radius: 1rem;
+  margin: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+  padding 1.5rem;
+  background: #ff9999;
+  font-size: 1em;
+  text-align: center
+
+}
 
 #Sally,#Mehdi,#Andy,#Adam{
 
@@ -254,20 +266,20 @@ h2{
 
 }
 
-.faculty_bio > .headshot {
+.faculty_bio,.com_panel > .headshot,.headshot_com {
 
   flex: 1 0 0%;
   text-align: center;
 
 }
 
-.headshot > img {
+.headshot,.headshot_com > img {
   text-align: center;
   width: 80%;
   min-width: 100px
 }
 
-.faculty_bio > .bio_description {
+.faculty_bio,.com_panel > .bio_description {
 
  flex: 2 0 0%;
  text-align: left;
@@ -487,6 +499,21 @@ h2{
   #sankey_alt{
 
     display: none;
+
+  }
+
+}
+
+
+.headshot_com{
+
+  display: none;
+
+}
+@media screen and (min-width: 720px){
+
+
+  .headshot_com{ display: block;
 
   }
 
