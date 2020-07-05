@@ -339,8 +339,9 @@ h2{
 .calendar_desktop{
 
  display: grid;
- grid-template-columns: repeat(6, 15vw [col-start]);
- grid-template-rows: repeat(8, 3em [row-start]);
+ grid-template-columns: repeat(5, 15vw [col-start]);
+ grid-template-rows: repeat(8,  [row-start]);
+ grid-auto-rows: max-content;
  grid-gap: 0.2em;
  justify-content: center;
  display: none;
@@ -352,6 +353,14 @@ h2{
   display: block;
 
 }
+
+.calendar_dates{
+
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
 .date_cell {
   display: flex;
   background: #b9ff99;
@@ -361,6 +370,7 @@ h2{
   margin-right: 1em;
   margin-left: 1em;
   border-radius: 10px;
+  text-align: center;
 }
 
 .blue_event {
@@ -372,6 +382,7 @@ h2{
   margin-right: 1em;
   margin-left: 1em;
   border-radius: 10px;
+  text-align: center;
 }
 
 .yellow_event {
@@ -383,6 +394,7 @@ h2{
   margin-right: 1em;
   margin-left: 1em;
   border-radius: 10px;
+  text-align: center;
 }
 
 .orange_event {
@@ -394,6 +406,7 @@ h2{
   margin-right: 1em;
   margin-left: 1em;
   border-radius: 10px;
+  text-align: center
 
 }
 
@@ -518,3 +531,4 @@ h2{
   }
 
 }
+
