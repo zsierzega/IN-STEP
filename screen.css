@@ -429,9 +429,30 @@ h2{
 
 }
 
-#registration_form{
+#registration_link{
 
   text-align: center;
-
+  font-size: 1.5em;
+  padding-bottom: 1em;
 }
 
+.session_descriptions{
+  margin-left: 1.5vw !important;
+  margin-right: 4vw !important;
+}
+
+.session_heading{
+  text-align: left;
+  margin-left: 1vw;
+}
+
+.sessions{
+  padding-top: 1em;
+  
+}
+
+#session_intro_head{
+
+  margin-top: 3vh;
+
+}
