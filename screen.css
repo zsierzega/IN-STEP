@@ -555,3 +555,22 @@ h2{
   }
 
 }
+
+#instep_logo{
+
+  height: 25vw;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 770px){
+
+  #instep_logo{
+
+    height: 15vw;
+    width: auto;
+
+
+}
