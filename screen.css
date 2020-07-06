@@ -266,25 +266,48 @@ h2{
 
 }
 
-.faculty_bio,.com_panel > .headshot,.headshot_com {
+.faculty_bio > .headshot {
 
   flex: 1 0 0%;
   text-align: center;
 
 }
 
-.headshot,.headshot_com > img {
+.com_panel > .headshot_com{
+
+  flex: 1 0 0%;
+  text-align: center;
+
+}
+
+.headshot > img {
   text-align: center;
   width: 80%;
   min-width: 100px
 }
 
-.faculty_bio,.com_panel > .bio_description {
+.headshot_com > img {
+  text-align: center;
+  width: 80%;
+  min-width: 100px
+}
+
+
+.faculty_bio > .bio_description {
 
  flex: 2 0 0%;
  text-align: left;
  margin: auto 0;
  margin-left: 0.5em;
+}
+
+.com_panel > .bio_description{
+
+ flex: 2 0 0%;
+ text-align: left;
+ margin: auto 0;
+ margin-left: 0.5em;
+
 }
 
 .bio_image{
@@ -451,6 +474,7 @@ h2{
 
 .resources_links {
 
+  text-align: center;
   padding-bottom: 1em;
 
 }
@@ -531,4 +555,3 @@ h2{
   }
 
 }
-
