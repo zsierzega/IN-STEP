@@ -310,7 +310,7 @@ h2{
 
 }
 
-.bio_image{
+.bio_image,.com_image{
 
   margin-top: 1vw;
   margin-bottom: 1vw;
@@ -318,6 +318,7 @@ h2{
   margin-left: 1em;
   width: 40%;
 }
+
 
 .bio_paragraph{
   
@@ -524,6 +525,12 @@ h2{
 
 }
 
+#sankeyintro{
+
+  display: none;
+
+}
+
 #sankey_alt{
 
   color: #3CBD22;
@@ -545,6 +552,11 @@ h2{
 
   }
 
+  #sankeyintro{
+
+    display: block;
+
+  }
 }
 
 
