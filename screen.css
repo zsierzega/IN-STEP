@@ -81,7 +81,7 @@ h2{
 }
 
 .home_nav{
-  margin-top: 10vh;
+  margin-top: 2vh;
   margin-left: 6vw;
   margin-right: 6vw;
   margin-bottom: 5vh;
@@ -642,4 +642,10 @@ h2{
    
   }
 
+}
+
+.resource_section{
+
+  display: flex;  
+  justify-content: center;
 }
