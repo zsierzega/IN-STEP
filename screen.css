@@ -649,3 +649,9 @@ h2{
   display: flex;  
   justify-content: center;
 }
+
+.resource_heading{
+
+  padding-top: 2vh;
+
+}
