@@ -571,6 +571,7 @@ h2{
   margin-right: auto;
 }
 
+
 @media screen and (min-width: 770px){
 
   #instep_logo{
@@ -579,13 +580,54 @@ h2{
     width: auto;
 
 
+  }
 }
 
-#iitnlulogo{
 
-  width: 50vw;
+#logo_container{
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+#iitlogo{
+
+  max-width: 50vw;
   height: auto;
-  display: block;
   margin: 0 auto;
+  display: block;
+
+}
+
+#nlulogo{
+
+  max-width: 25vw;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+
+}
+
+@media screen and (min-width: 770px){
+
+  #logo_container{
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  #iitlogo{
+
+    max-width: 30vw;
+    padding-bottom: 0.25em;
+ 
+  }
+
+  #nlulogo{
+    
+    max-width: 15vw;
+   
+  }
 
 }
